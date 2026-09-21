@@ -931,10 +931,10 @@ section{ scroll-margin-top: calc(var(--nav-h) + 22px); position: relative; }
    RESPONSIVE
    ============================================================ */
 @media (max-width: 480px){
-  .nav{ padding-inline: .8rem; gap: .35rem; }
-  .nav-brand{ font-size: 1.02rem; padding: .3rem 0; }
-  .nav-links{ gap: .5rem; }
-  .nav-links a{ font-size: .74rem; letter-spacing: .04em; min-height: 44px; }
+  .nav{ padding-inline: .7rem; gap: .3rem; }
+  .nav-brand{ font-size: .98rem; padding: .3rem 0; }
+  .nav-links{ gap: .42rem; }
+  .nav-links a{ font-size: .72rem; letter-spacing: .01em; min-height: 44px; }
   .cd-grid{ gap: .42rem; }
   .cd-card{ padding: .95rem .1rem; }
   .vcard{ padding-left: 1rem; }
@@ -945,7 +945,9 @@ section{ scroll-margin-top: calc(var(--nav-h) + 22px); position: relative; }
 }
 
 @media (max-width: 360px){
-  .nav-links a{ font-size: .7rem; }
+  .nav{ padding-inline: .55rem; }
+  .nav-links a{ font-size: .68rem; }
+  .nav-links{ gap: .34rem; }
   .couple-item{ grid-template-columns: auto auto; }
 }
 
@@ -974,6 +976,7 @@ section{ scroll-margin-top: calc(var(--nav-h) + 22px); position: relative; }
     <li><a href="#about">關於我們</a></li>
     <li><a href="#album">婚紗相簿</a></li>
     <li><a href="#details">婚禮詳情</a></li>
+    <li><a href="#rsvp">填寫回函</a></li>
   </ul>
 </nav>
 
@@ -1167,7 +1170,7 @@ section{ scroll-margin-top: calc(var(--nav-h) + 22px); position: relative; }
 </section>
 
 <!-- ============================ RSVP ============================ -->
-<section class="section" aria-label="出席回函">
+<section class="section" id="rsvp" aria-label="出席回函">
   <div class="wrap">
     <a class="rsvp-card reveal" href="https://forms.gle/Lskvkey4bGyYcug56" target="_blank" rel="noopener">
       <p class="kicker">R.S.V.P.</p>
@@ -1382,6 +1385,9 @@ section{ scroll-margin-top: calc(var(--nav-h) + 22px); position: relative; }
 
 </body>
 </html>
+
+
+
 
 
 
